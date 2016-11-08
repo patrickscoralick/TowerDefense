@@ -7,4 +7,10 @@ public class movimentoInimigo : MonoBehaviour
     {
         this.transform.Translate(-Vector2.right * 20f * Time.deltaTime);
 	}
+
+
+    void OnBecameInvisible()
+    {
+        Destroy(this.gameObject);
+    }
 }

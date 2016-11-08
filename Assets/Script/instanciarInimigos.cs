@@ -11,7 +11,7 @@ public class instanciarInimigos : MonoBehaviour
     {
         tempo += Time.deltaTime;
 
-        if (tempo > 1)
+        if (tempo > 2.5)
         {
             int local = Random.RandomRange(0, locais.Length);
             
